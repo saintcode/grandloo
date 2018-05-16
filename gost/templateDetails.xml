@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
-<extension version="3.8" type="template" client="site">
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8.7" type="template" client="site">
   <name>gost</name>
-  <creationDate>2011-09-04</creationDate>
-  <version>1.0</version>
-  <author></author>
-  <authorUrl></authorUrl>
-  <description>Artisteer-generated theme</description>
+  <creationDate>2018-05-16</creationDate>
+  <version>1.1</version>
+  <author>Vadym Evseev</author>
+  <authorUrl>sscode@gmail.com</authorUrl>
+  <description>Simple theme</description>
   <files>
+    <folder>images</folder>
     <fileName>template_thumbnail.png</fileName>
     <fileName>component.php</fileName>
     <fileName>functions.php</fileName>
@@ -36,7 +38,6 @@
     <fileName>script.js</fileName>
     <fileName>templateDetails.xml</fileName>
   </files>
-  <folder>images</folder>
   <css>
     <fileName>css/editor.css</fileName>
     <fileName>css/template.ie6.css</fileName>
