@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<install type="template" version="1.5">
+﻿<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.8" type="template" client="site">
   <name>gost</name>
   <creationDate>2011-09-04</creationDate>
   <version>1.0</version>
@@ -36,34 +36,7 @@
     <fileName>script.js</fileName>
     <fileName>templateDetails.xml</fileName>
   </files>
-  <images>
-    <fileName>images/Page-BgTexture.jpg</fileName>
-    <fileName>images/Page-BgGradient.jpg</fileName>
-    <fileName>images/Page-BgGlare.png</fileName>
-    <fileName>images/Sheet-s.png</fileName>
-    <fileName>images/Sheet-h.png</fileName>
-    <fileName>images/Sheet-v.png</fileName>
-    <fileName>images/Sheet-c.png</fileName>
-    <fileName>images/Header.jpg</fileName>
-    <fileName>images/nav.png</fileName>
-    <fileName>images/MenuItem.png</fileName>
-    <fileName>images/MenuSeparator.png</fileName>
-    <fileName>images/subitem-bg.png</fileName>
-    <fileName>images/Block-s.png</fileName>
-    <fileName>images/Block-h.png</fileName>
-    <fileName>images/Block-v.png</fileName>
-    <fileName>images/Post-s.png</fileName>
-    <fileName>images/Post-h.png</fileName>
-    <fileName>images/Post-v.png</fileName>
-    <fileName>images/edit_unpublished.png</fileName>
-    <fileName>images/PostBullets.png</fileName>
-    <fileName>images/PostQuote.png</fileName>
-    <fileName>images/Button.png</fileName>
-    <fileName>images/Footer.png</fileName>
-    <fileName>images/edit.png</fileName>
-    <fileName>images/spacer.gif</fileName>
-    <fileName>images/livemarks.png</fileName>
-  </images>
+  <folder>images</folder>
   <css>
     <fileName>css/editor.css</fileName>
     <fileName>css/template.ie6.css</fileName>
@@ -94,4 +67,4 @@
     <position>copyright</position>
     <position>user3</position>
   </positions>
-</install>
+</extension>
