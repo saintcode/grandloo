@@ -1,0 +1,11 @@
+<div id="form">
+						<form id="reg_form" style="text/css" method="post" enctype="multipart/form-data">
+							<fieldset class="joomly ui-sortable">
+							<input type="hidden" name="option" value="com_joomlyform" class="ui-sortable-handle" style="">	
+							<input type="hidden" name="page" value="<?php echo $_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"];?>" class="ui-sortable-handle" style="">	
+							<input type="hidden" name="ip" value="<?php echo $_SERVER["REMOTE_ADDR"];?>" class="ui-sortable-handle" style="">	
+							<input type="hidden" name="form_id" value="booking" class="ui-sortable-handle" style="">	
+							<input type="hidden" name="task" value="add.save" class="ui-sortable-handle" style="">
+							<div class="input" data-element="input" data-id="input1"><label for="input1">Имя</label><input type="text" name="input1" id="input1" class="" placeholder="Введите имя" required="" style="width: 280px;"></div><div class="input" data-element="input" data-id="input2" style=""><label for="input2">Email</label><input type="text" name="input2" id="input2" class="" placeholder="Введите email" required="" style="width: 280px;"></div><div class="input" data-element="input" data-id="input3"><label for="input3">Телефон</label><input type="text" name="input3" id="input3" class="" placeholder="" required="" style="width: 280px;"></div><div class="input" data-element="input" data-id="input4"><label for="input4" style="width: 280px;">Количество человек</label><input type="number" id="input4" name="input4" placeholder="" class="" required="" style="width: 90px;"></div><div class="textarea" data-element="textarea" data-id="textarea1" style=""><label for="textarea1" style="width: 130px;">Дополнительная информация</label><textarea name="textarea1" id="textarea1" class="wide_textarea" placeholder="Дата заезда, коментарии, пожелания" rows="3"></textarea></div><div class="active" data-element="button" data-id="button1" style=""><button type="submit" class="btn btn-primary" id="button1" style="margin-left: 0px; margin-right: auto; border-radius: 0px; font-size: 16px;">Отправить</button></div></fieldset>
+						</form>
+					</div>

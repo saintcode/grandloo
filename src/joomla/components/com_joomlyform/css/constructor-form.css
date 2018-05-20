@@ -1,0 +1,56 @@
+#reg_form > fieldset > div > label{
+	width: 90px;
+	display: inline-block;
+}
+#reg_form > fieldset > div.radio > label{
+	width: auto;
+	display: inline-block;
+}
+#reg_form >fieldset > div{
+	padding: 8px 10px;
+}
+#reg_form >fieldset > div.checkbox{
+	padding: 5px 10px;
+	margin: 0px 0px;
+}
+#reg_form >fieldset > div.checkbox > label{
+	padding-left: 20px;
+}
+div.checkbox  input[type="checkbox"]{
+  position: absolute;
+  margin-left: -20px;
+}
+#reg_form >fieldset > div.radio{
+	padding: 5px 10px;
+	margin: 0px 0px;
+}
+#reg_form >fieldset > div.radio> label{
+	padding-left: 20px;
+}
+#reg_form >fieldset > div.p{
+	padding: 1px 10px;
+}
+#reg_form >fieldset > div.h   h1,h2,h3,h4,h5,h6{
+	margin-top: 0px;
+}
+#reg_form > fieldset > div > input{
+	height: 30px;
+	width: 195px;
+	border: 1px solid #ccc;
+	padding: 2px 6px;
+}
+#reg_form > fieldset > div > select{
+	border: 1px solid #ccc;
+}
+#reg_form > fieldset > div > input[type="range"]{
+	padding: 0px 0px;
+}
+#reg_form > fieldset > div > textarea{
+	border: 1px solid #ccc;
+	padding: 2px 6px;
+	height:auto;
+}
+#reg_form > fieldset > div.textarea  > textarea{
+	vertical-align: top;
+}
+

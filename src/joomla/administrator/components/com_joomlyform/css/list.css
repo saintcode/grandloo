@@ -1,0 +1,6 @@
+tr.read{
+	background-color:rgba(243,243,243,.85);
+}
+tr:hover td{
+	background:#f0f8ff;
+}
