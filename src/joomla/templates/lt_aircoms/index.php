@@ -151,6 +151,7 @@ if($custom_js = $this->helix3->getParam('custom_js')) {
             echo $before_head . "\n";
         }
     ?>
+    <meta name="google-site-verification" content="a7jMrg7c_LzIwd4BSVlvR9k2Wut3V6az8rf0xGztAns" />
 </head>
 <body class="<?php echo $this->helix3->bodyClass( $body_classes ); ?>">
     <div class="body-innerwrapper">
